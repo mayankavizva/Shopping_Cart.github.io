@@ -8,11 +8,11 @@ import {CartProvider} from "react-use-cart"
 function App() {
   return (
     <>
-    <NumberAssign/>
-    {/* <CartProvider>
+    {/* <NumberAssign/> */}
+    <CartProvider>
      <Home/>
      <Cart/>   
-     </CartProvider>  */}
+     </CartProvider> 
     </>
     
   )
